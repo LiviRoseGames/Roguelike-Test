@@ -18,7 +18,7 @@ const MAX_ROOM_DIMENSION = 8
 
 #Different tile names/types 	TODO: implement multiple versions of types. Wall1, Wall2, etc.
 #enum Tile {Wall, Door, Floor, Ladder, Stone}
-enum Tile {Floor, Wall, Stone, Door}
+enum Tile {Floor, Wall, Stone, Door, Hole}
 
 # Current Level --------------------------------------
 
@@ -74,6 +74,15 @@ func try_move(dx, dy):
 		Tile.Door:
 			set_tile(x, y, Tile.Floor)
 			
+		Tile.Hole:
+			level_num += 1
+			score += 20
+			if level_num < LEVEL_SIZES.size():
+				build_level()
+			else:
+				score += 1000
+				$CanvasLayer/Win.visible = true
+			
 	update_visuals()
 
 func build_level():
@@ -108,6 +117,17 @@ func build_level():
 	var player_y = start_room.position.y + 1 + randi() % int(start_room.size.y - 2)
 	player_tile = Vector2(player_x, player_y)
 	update_visuals()
+	
+	#Place end hole
+	
+	var end_room = rooms.back()
+	var hole_x = end_room.position.x + 1 + randi() % int(end_room.size.x - 2)
+	var hole_y = end_room.position.y + 1 + randi() % int(end_room.size.y - 2)
+	set_tile(hole_x, hole_y, Tile.Hole)
+	
+	#Display what level the player is on
+	$CanvasLayer/LevelLabel.text = "Level: " + str(level_num)
+	
 	
 func update_visuals():
 	player.position = player_tile * TILE_SIZE
@@ -319,3 +339,10 @@ func cut_regions(free_regions, region_to_remove):
 func set_tile(x, y, type):
 	map[x][y] = type
 	tile_map.set_cell(x, y, type)
+
+
+func _on_Button_pressed():
+	level_num = 0
+	score = 0
+	build_level()
+	$CanvasLayer/Win.visible = false
