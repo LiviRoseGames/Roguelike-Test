@@ -94,6 +94,8 @@ func build_level():
 	map.clear()
 	tile_map.clear()
 	
+	
+	
 	#Fill entire level with Stone
 	level_size = LEVEL_SIZES[level_num]
 	for x in range(level_size.x):
