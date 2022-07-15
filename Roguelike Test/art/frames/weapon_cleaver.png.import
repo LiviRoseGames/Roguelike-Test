@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_cleaver.png-e0711c01388071f5d4aa6d29a2c2cb99.stex"
+path="res://.import/weapon_cleaver.png-6f8f60e99841c57f864c7d11ce2df1e9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/weapon_cleaver.png"
-dest_files=[ "res://.import/weapon_cleaver.png-e0711c01388071f5d4aa6d29a2c2cb99.stex" ]
+source_file="res://Roguelike Test/art/frames/weapon_cleaver.png"
+dest_files=[ "res://.import/weapon_cleaver.png-6f8f60e99841c57f864c7d11ce2df1e9.stex" ]
 
 [params]
 

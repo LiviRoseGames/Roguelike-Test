@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/goblin_run_anim_f3.png-06e8bb2f3fcbb2747a50c5436191f8ce.stex"
+path="res://.import/goblin_run_anim_f3.png-f805a2197676e0f8932cb44951d3c86b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/goblin_run_anim_f3.png"
-dest_files=[ "res://.import/goblin_run_anim_f3.png-06e8bb2f3fcbb2747a50c5436191f8ce.stex" ]
+source_file="res://Roguelike Test/art/frames/goblin_run_anim_f3.png"
+dest_files=[ "res://.import/goblin_run_anim_f3.png-f805a2197676e0f8932cb44951d3c86b.stex" ]
 
 [params]
 

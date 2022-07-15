@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/masked_orc_run_anim_f0.png-c9f8a655d1e17e8152f07edd5aa4c71a.stex"
+path="res://.import/masked_orc_run_anim_f0.png-7ae0a0985dbaa7d0234960cbc41fc66f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/masked_orc_run_anim_f0.png"
-dest_files=[ "res://.import/masked_orc_run_anim_f0.png-c9f8a655d1e17e8152f07edd5aa4c71a.stex" ]
+source_file="res://Roguelike Test/art/frames/masked_orc_run_anim_f0.png"
+dest_files=[ "res://.import/masked_orc_run_anim_f0.png-7ae0a0985dbaa7d0234960cbc41fc66f.stex" ]
 
 [params]
 

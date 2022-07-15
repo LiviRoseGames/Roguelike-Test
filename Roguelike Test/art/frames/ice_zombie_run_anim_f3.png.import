@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ice_zombie_run_anim_f3.png-ecb6bf93743e39459ee813d0b1b9abc1.stex"
+path="res://.import/ice_zombie_run_anim_f3.png-90e0e326ced3664ecf774d02e00c7608.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/ice_zombie_run_anim_f3.png"
-dest_files=[ "res://.import/ice_zombie_run_anim_f3.png-ecb6bf93743e39459ee813d0b1b9abc1.stex" ]
+source_file="res://Roguelike Test/art/frames/ice_zombie_run_anim_f3.png"
+dest_files=[ "res://.import/ice_zombie_run_anim_f3.png-90e0e326ced3664ecf774d02e00c7608.stex" ]
 
 [params]
 

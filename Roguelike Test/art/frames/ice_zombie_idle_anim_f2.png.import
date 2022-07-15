@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ice_zombie_idle_anim_f2.png-0c596093c850e773d72b5a178281fce2.stex"
+path="res://.import/ice_zombie_idle_anim_f2.png-025e76c73b73eb1d5b8c4267f2de39d7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/ice_zombie_idle_anim_f2.png"
-dest_files=[ "res://.import/ice_zombie_idle_anim_f2.png-0c596093c850e773d72b5a178281fce2.stex" ]
+source_file="res://Roguelike Test/art/frames/ice_zombie_idle_anim_f2.png"
+dest_files=[ "res://.import/ice_zombie_idle_anim_f2.png-025e76c73b73eb1d5b8c4267f2de39d7.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wall_inner_corner_mid_rigth.png-cf67ac0895442de7f3c60428feba0587.stex"
+path="res://.import/wall_inner_corner_mid_rigth.png-5ee294c540623e6ebc164ede416f81d8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/wall_inner_corner_mid_rigth.png"
-dest_files=[ "res://.import/wall_inner_corner_mid_rigth.png-cf67ac0895442de7f3c60428feba0587.stex" ]
+source_file="res://Roguelike Test/art/frames/wall_inner_corner_mid_rigth.png"
+dest_files=[ "res://.import/wall_inner_corner_mid_rigth.png-5ee294c540623e6ebc164ede416f81d8.stex" ]
 
 [params]
 

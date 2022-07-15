@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skull.png-b09fdb04af2e6b579cc51a25314d9bba.stex"
+path="res://.import/skull.png-a47d1b9be09e965f101cdf14a8f57d2d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/skull.png"
-dest_files=[ "res://.import/skull.png-b09fdb04af2e6b579cc51a25314d9bba.stex" ]
+source_file="res://Roguelike Test/art/frames/skull.png"
+dest_files=[ "res://.import/skull.png-a47d1b9be09e965f101cdf14a8f57d2d.stex" ]
 
 [params]
 

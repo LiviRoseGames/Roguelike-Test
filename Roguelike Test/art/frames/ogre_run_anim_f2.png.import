@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ogre_run_anim_f2.png-42fcc6fcdb276855a1e280deb556bc44.stex"
+path="res://.import/ogre_run_anim_f2.png-74b1d3f65e63bfbb78a85b597b1359ca.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/ogre_run_anim_f2.png"
-dest_files=[ "res://.import/ogre_run_anim_f2.png-42fcc6fcdb276855a1e280deb556bc44.stex" ]
+source_file="res://Roguelike Test/art/frames/ogre_run_anim_f2.png"
+dest_files=[ "res://.import/ogre_run_anim_f2.png-74b1d3f65e63bfbb78a85b597b1359ca.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/goblin_idle_anim_f0.png-229af342a2f55b50d8e9a5b55425c990.stex"
+path="res://.import/goblin_idle_anim_f0.png-930ca77667b81876bfc9419d302e1dcb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/goblin_idle_anim_f0.png"
-dest_files=[ "res://.import/goblin_idle_anim_f0.png-229af342a2f55b50d8e9a5b55425c990.stex" ]
+source_file="res://Roguelike Test/art/frames/goblin_idle_anim_f0.png"
+dest_files=[ "res://.import/goblin_idle_anim_f0.png-930ca77667b81876bfc9419d302e1dcb.stex" ]
 
 [params]
 

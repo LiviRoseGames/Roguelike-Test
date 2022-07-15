@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/doors_all.png-45e9274749b52d3c6f81c12b0dd19db6.stex"
+path="res://.import/doors_all.png-2c6f7f7e8a3d7142f7547c7f40588a3e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/doors_all.png"
-dest_files=[ "res://.import/doors_all.png-45e9274749b52d3c6f81c12b0dd19db6.stex" ]
+source_file="res://Roguelike Test/art/frames/doors_all.png"
+dest_files=[ "res://.import/doors_all.png-2c6f7f7e8a3d7142f7547c7f40588a3e.stex" ]
 
 [params]
 
