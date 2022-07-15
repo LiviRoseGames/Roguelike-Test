@@ -30,6 +30,7 @@ var level_size
 # Node refs ----------------------------------------------
 
 onready var tile_map = $TileMap
+onready var visiblility_map = $VisibilityMap
 onready var player = $Player
 
 # Game State ---------------------------------------------
@@ -83,7 +84,8 @@ func try_move(dx, dy):
 				score += 1000
 				$CanvasLayer/Win.visible = true
 			
-	update_visuals()
+	#update_visuals() #Must call after physics is dealt with
+	call_deferred("update_visuals")
 
 func build_level():
 	
@@ -99,6 +101,7 @@ func build_level():
 		for y in range(level_size.y):
 			map[x].append(Tile.Stone)
 			tile_map.set_cell(x,y,Tile.Stone)
+			visiblility_map.set_cell(x, y, 0)
 			
 	#Always have a border of 2 (tweakable) stone around the map. No rooms in this ring
 	var free_regions = [Rect2(Vector2(2,2), level_size - Vector2(4,4))]
@@ -116,7 +119,8 @@ func build_level():
 	var player_x = start_room.position.x + 1 + randi() % int(start_room.size.x - 2)
 	var player_y = start_room.position.y + 1 + randi() % int(start_room.size.y - 2)
 	player_tile = Vector2(player_x, player_y)
-	update_visuals()
+	#update_visuals() #Must call after physics is dealt with
+	call_deferred("update_visuals")
 	
 	#Place end hole
 	
@@ -131,6 +135,21 @@ func build_level():
 	
 func update_visuals():
 	player.position = player_tile * TILE_SIZE
+	var player_center = tile_to_pixel_center(player_tile.x, player_tile.y)
+	var space_state = get_world_2d().direct_space_state
+	for x in range(level_size.x):
+		for y in range(level_size.y):
+			if visiblility_map.get_cell(x, y) == 0:
+				var x_dir = 1 if x < player_tile.x else -1
+				var y_dir = 1 if y < player_tile.y else -1
+				var test_point = tile_to_pixel_center(x, y) + Vector2(x_dir, y_dir) * TILE_SIZE / 2
+				
+				var occlusion = space_state.intersect_ray(player_center, test_point)
+				if !occlusion || (occlusion.position - test_point).length() < 1:
+					visiblility_map.set_cell(x, y, -1)
+	
+func tile_to_pixel_center(x, y):
+	return Vector2((x + 0.5) * TILE_SIZE, (y + 0.5) * TILE_SIZE)
 	
 func connect_rooms():
 	#Building an AStar graph of the area where we can use pathfinding to make corridors
