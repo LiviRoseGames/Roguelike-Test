@@ -18,7 +18,7 @@ const MAX_ROOM_DIMENSION = 8
 
 #Different tile names/types 	TODO: implement multiple versions of types. Wall1, Wall2, etc.
 #enum Tile {Wall, Door, Floor, Ladder, Stone}
-enum Tile {Floor, Wall, Stone, Door}
+enum Tile {Floor, Wall, Stone, Door, Hole}
 
 # Current Level --------------------------------------
 
@@ -30,6 +30,7 @@ var level_size
 # Node refs ----------------------------------------------
 
 onready var tile_map = $TileMap
+onready var visiblility_map = $VisibilityMap
 onready var player = $Player
 
 # Game State ---------------------------------------------
@@ -74,7 +75,17 @@ func try_move(dx, dy):
 		Tile.Door:
 			set_tile(x, y, Tile.Floor)
 			
-	update_visuals()
+		Tile.Hole:
+			level_num += 1
+			score += 20
+			if level_num < LEVEL_SIZES.size():
+				build_level()
+			else:
+				score += 1000
+				$CanvasLayer/Win.visible = true
+			
+	#update_visuals() #Must call after physics is dealt with
+	call_deferred("update_visuals")
 
 func build_level():
 	
@@ -90,6 +101,7 @@ func build_level():
 		for y in range(level_size.y):
 			map[x].append(Tile.Stone)
 			tile_map.set_cell(x,y,Tile.Stone)
+			visiblility_map.set_cell(x, y, 0)
 			
 	#Always have a border of 2 (tweakable) stone around the map. No rooms in this ring
 	var free_regions = [Rect2(Vector2(2,2), level_size - Vector2(4,4))]
@@ -107,10 +119,37 @@ func build_level():
 	var player_x = start_room.position.x + 1 + randi() % int(start_room.size.x - 2)
 	var player_y = start_room.position.y + 1 + randi() % int(start_room.size.y - 2)
 	player_tile = Vector2(player_x, player_y)
-	update_visuals()
+	#update_visuals() #Must call after physics is dealt with
+	call_deferred("update_visuals")
+	
+	#Place end hole
+	
+	var end_room = rooms.back()
+	var hole_x = end_room.position.x + 1 + randi() % int(end_room.size.x - 2)
+	var hole_y = end_room.position.y + 1 + randi() % int(end_room.size.y - 2)
+	set_tile(hole_x, hole_y, Tile.Hole)
+	
+	#Display what level the player is on
+	$CanvasLayer/LevelLabel.text = "Level: " + str(level_num)
+	
 	
 func update_visuals():
 	player.position = player_tile * TILE_SIZE
+	var player_center = tile_to_pixel_center(player_tile.x, player_tile.y)
+	var space_state = get_world_2d().direct_space_state
+	for x in range(level_size.x):
+		for y in range(level_size.y):
+			if visiblility_map.get_cell(x, y) == 0:
+				var x_dir = 1 if x < player_tile.x else -1
+				var y_dir = 1 if y < player_tile.y else -1
+				var test_point = tile_to_pixel_center(x, y) + Vector2(x_dir, y_dir) * TILE_SIZE / 2
+				
+				var occlusion = space_state.intersect_ray(player_center, test_point)
+				if !occlusion || (occlusion.position - test_point).length() < 1:
+					visiblility_map.set_cell(x, y, -1)
+	
+func tile_to_pixel_center(x, y):
+	return Vector2((x + 0.5) * TILE_SIZE, (y + 0.5) * TILE_SIZE)
 	
 func connect_rooms():
 	#Building an AStar graph of the area where we can use pathfinding to make corridors
@@ -319,3 +358,10 @@ func cut_regions(free_regions, region_to_remove):
 func set_tile(x, y, type):
 	map[x][y] = type
 	tile_map.set_cell(x, y, type)
+
+
+func _on_Button_pressed():
+	level_num = 0
+	score = 0
+	build_level()
+	$CanvasLayer/Win.visible = false
