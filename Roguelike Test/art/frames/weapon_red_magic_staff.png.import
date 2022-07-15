@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_red_magic_staff.png-b5a78801f18bde5912d0d9181b69e0dc.stex"
+path="res://.import/weapon_red_magic_staff.png-e3d02e02a43414840979193af1063a0e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/weapon_red_magic_staff.png"
-dest_files=[ "res://.import/weapon_red_magic_staff.png-b5a78801f18bde5912d0d9181b69e0dc.stex" ]
+source_file="res://Roguelike Test/art/frames/weapon_red_magic_staff.png"
+dest_files=[ "res://.import/weapon_red_magic_staff.png-e3d02e02a43414840979193af1063a0e.stex" ]
 
 [params]
 

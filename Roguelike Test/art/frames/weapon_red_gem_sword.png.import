@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_red_gem_sword.png-a6e41b6bfbdfb7a7e3ae3f470e42356b.stex"
+path="res://.import/weapon_red_gem_sword.png-72b51e46ef058008556296f873087c5a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/weapon_red_gem_sword.png"
-dest_files=[ "res://.import/weapon_red_gem_sword.png-a6e41b6bfbdfb7a7e3ae3f470e42356b.stex" ]
+source_file="res://Roguelike Test/art/frames/weapon_red_gem_sword.png"
+dest_files=[ "res://.import/weapon_red_gem_sword.png-72b51e46ef058008556296f873087c5a.stex" ]
 
 [params]
 

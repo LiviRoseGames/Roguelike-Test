@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/flask_big_red.png-6fb03b724c85b40eed236581f25d6799.stex"
+path="res://.import/flask_big_red.png-de77d5cf19c9ef2cc88168979ec22c2c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/flask_big_red.png"
-dest_files=[ "res://.import/flask_big_red.png-6fb03b724c85b40eed236581f25d6799.stex" ]
+source_file="res://Roguelike Test/art/frames/flask_big_red.png"
+dest_files=[ "res://.import/flask_big_red.png-de77d5cf19c9ef2cc88168979ec22c2c.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_hammer.png-037e658a3363a6b3dcfb89b0eba16e2e.stex"
+path="res://.import/weapon_hammer.png-f11c833a185e24fe7175f001b712ee07.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/weapon_hammer.png"
-dest_files=[ "res://.import/weapon_hammer.png-037e658a3363a6b3dcfb89b0eba16e2e.stex" ]
+source_file="res://Roguelike Test/art/frames/weapon_hammer.png"
+dest_files=[ "res://.import/weapon_hammer.png-f11c833a185e24fe7175f001b712ee07.stex" ]
 
 [params]
 

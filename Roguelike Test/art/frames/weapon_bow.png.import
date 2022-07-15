@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_bow.png-fb6fbc6d545c66d9cd2884d2ea7af512.stex"
+path="res://.import/weapon_bow.png-b209809d4c2aebf76ee27706dab0ba9e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/weapon_bow.png"
-dest_files=[ "res://.import/weapon_bow.png-fb6fbc6d545c66d9cd2884d2ea7af512.stex" ]
+source_file="res://Roguelike Test/art/frames/weapon_bow.png"
+dest_files=[ "res://.import/weapon_bow.png-b209809d4c2aebf76ee27706dab0ba9e.stex" ]
 
 [params]
 

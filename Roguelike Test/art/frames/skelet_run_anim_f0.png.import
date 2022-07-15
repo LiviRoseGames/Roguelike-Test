@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skelet_run_anim_f0.png-3cb30888b3d66e7d654dd3cbe54c6bdf.stex"
+path="res://.import/skelet_run_anim_f0.png-8385861a978ff8c4e17a404cdb248c09.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/skelet_run_anim_f0.png"
-dest_files=[ "res://.import/skelet_run_anim_f0.png-3cb30888b3d66e7d654dd3cbe54c6bdf.stex" ]
+source_file="res://Roguelike Test/art/frames/skelet_run_anim_f0.png"
+dest_files=[ "res://.import/skelet_run_anim_f0.png-8385861a978ff8c4e17a404cdb248c09.stex" ]
 
 [params]
 

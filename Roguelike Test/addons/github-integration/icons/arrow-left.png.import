@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/arrow-left.png-1941a3f221b2e3cc142502e269e458f9.stex"
+path="res://.import/arrow-left.png-d9212ae242c07d9c7d53ac9495242f32.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/github-integration/icons/arrow-left.png"
-dest_files=[ "res://.import/arrow-left.png-1941a3f221b2e3cc142502e269e458f9.stex" ]
+source_file="res://Roguelike Test/addons/github-integration/icons/arrow-left.png"
+dest_files=[ "res://.import/arrow-left.png-d9212ae242c07d9c7d53ac9495242f32.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/floor_5.png-c46fe3cd3eb0299e648b6f90cfcd2f0f.stex"
+path="res://.import/floor_5.png-c1af3688c8efb253f7dded830c72eed8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/floor_5.png"
-dest_files=[ "res://.import/floor_5.png-c46fe3cd3eb0299e648b6f90cfcd2f0f.stex" ]
+source_file="res://Roguelike Test/art/frames/floor_5.png"
+dest_files=[ "res://.import/floor_5.png-c1af3688c8efb253f7dded830c72eed8.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/accept-w.png-5d14172905ef883ae53edc9c9d7c3161.stex"
+path="res://.import/accept-w.png-389e5aad37723ce4310877e75e2c58a5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/github-integration/icons/accept-w.png"
-dest_files=[ "res://.import/accept-w.png-5d14172905ef883ae53edc9c9d7c3161.stex" ]
+source_file="res://Roguelike Test/addons/github-integration/icons/accept-w.png"
+dest_files=[ "res://.import/accept-w.png-389e5aad37723ce4310877e75e2c58a5.stex" ]
 
 [params]
 

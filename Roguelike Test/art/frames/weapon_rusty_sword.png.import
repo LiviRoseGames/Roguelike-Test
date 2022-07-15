@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_rusty_sword.png-64d2b2ba0ad6ae050f1418f4cdbd1c54.stex"
+path="res://.import/weapon_rusty_sword.png-b7a4fb25f41b7b4e855faa19fdeb2dd5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/weapon_rusty_sword.png"
-dest_files=[ "res://.import/weapon_rusty_sword.png-64d2b2ba0ad6ae050f1418f4cdbd1c54.stex" ]
+source_file="res://Roguelike Test/art/frames/weapon_rusty_sword.png"
+dest_files=[ "res://.import/weapon_rusty_sword.png-b7a4fb25f41b7b4e855faa19fdeb2dd5.stex" ]
 
 [params]
 

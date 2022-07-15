@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_saw_sword.png-07ae1dd048620e9a199bbc364dcc2f2a.stex"
+path="res://.import/weapon_saw_sword.png-025a3dcb02f92205d1a657fe345795d0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/weapon_saw_sword.png"
-dest_files=[ "res://.import/weapon_saw_sword.png-07ae1dd048620e9a199bbc364dcc2f2a.stex" ]
+source_file="res://Roguelike Test/art/frames/weapon_saw_sword.png"
+dest_files=[ "res://.import/weapon_saw_sword.png-025a3dcb02f92205d1a657fe345795d0.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chest_mimic_open_anim_f1.png-6282520b185b87a60fbc1185ec3432d3.stex"
+path="res://.import/chest_mimic_open_anim_f1.png-5d6569c65a1eb966ea380146542f0614.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/chest_mimic_open_anim_f1.png"
-dest_files=[ "res://.import/chest_mimic_open_anim_f1.png-6282520b185b87a60fbc1185ec3432d3.stex" ]
+source_file="res://Roguelike Test/art/frames/chest_mimic_open_anim_f1.png"
+dest_files=[ "res://.import/chest_mimic_open_anim_f1.png-5d6569c65a1eb966ea380146542f0614.stex" ]
 
 [params]
 
