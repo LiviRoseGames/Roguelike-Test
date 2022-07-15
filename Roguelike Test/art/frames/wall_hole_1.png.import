@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wall_hole_1.png-5be0a59c775bda78d6bbda4fdd2bc9d5.stex"
+path="res://.import/wall_hole_1.png-299893386428bdaa34d493f339abaeff.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/wall_hole_1.png"
-dest_files=[ "res://.import/wall_hole_1.png-5be0a59c775bda78d6bbda4fdd2bc9d5.stex" ]
+source_file="res://Roguelike Test/art/frames/wall_hole_1.png"
+dest_files=[ "res://.import/wall_hole_1.png-299893386428bdaa34d493f339abaeff.stex" ]
 
 [params]
 

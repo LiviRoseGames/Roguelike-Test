@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/swampy_run_anim_f3.png-fbe3a0148e69cf0ade3836143f9057ea.stex"
+path="res://.import/swampy_run_anim_f3.png-aa6c25052392354a4259e8b0e2df9659.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/swampy_run_anim_f3.png"
-dest_files=[ "res://.import/swampy_run_anim_f3.png-fbe3a0148e69cf0ade3836143f9057ea.stex" ]
+source_file="res://Roguelike Test/art/frames/swampy_run_anim_f3.png"
+dest_files=[ "res://.import/swampy_run_anim_f3.png-aa6c25052392354a4259e8b0e2df9659.stex" ]
 
 [params]
 

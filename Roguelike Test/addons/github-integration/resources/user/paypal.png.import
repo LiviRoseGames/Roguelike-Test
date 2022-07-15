@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/paypal.png-5bebf862c20f1b601f51756463163b86.stex"
+path="res://.import/paypal.png-2829ab07f2accfd134ddf9af7f5f232b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/github-integration/resources/user/paypal.png"
-dest_files=[ "res://.import/paypal.png-5bebf862c20f1b601f51756463163b86.stex" ]
+source_file="res://Roguelike Test/addons/github-integration/resources/user/paypal.png"
+dest_files=[ "res://.import/paypal.png-2829ab07f2accfd134ddf9af7f5f232b.stex" ]
 
 [params]
 

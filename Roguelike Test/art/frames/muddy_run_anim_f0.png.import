@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/muddy_run_anim_f0.png-34ba2f7f73c6a815a817679680da17f1.stex"
+path="res://.import/muddy_run_anim_f0.png-f0e282e9e70d71d1120d5390a98fb44a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/muddy_run_anim_f0.png"
-dest_files=[ "res://.import/muddy_run_anim_f0.png-34ba2f7f73c6a815a817679680da17f1.stex" ]
+source_file="res://Roguelike Test/art/frames/muddy_run_anim_f0.png"
+dest_files=[ "res://.import/muddy_run_anim_f0.png-f0e282e9e70d71d1120d5390a98fb44a.stex" ]
 
 [params]
 

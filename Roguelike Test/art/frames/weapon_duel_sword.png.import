@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_duel_sword.png-e3e6fead57924bde8ab2b1653aa102e9.stex"
+path="res://.import/weapon_duel_sword.png-30ae178d47c95b3bf496031d5935c0f0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/weapon_duel_sword.png"
-dest_files=[ "res://.import/weapon_duel_sword.png-e3e6fead57924bde8ab2b1653aa102e9.stex" ]
+source_file="res://Roguelike Test/art/frames/weapon_duel_sword.png"
+dest_files=[ "res://.import/weapon_duel_sword.png-30ae178d47c95b3bf496031d5935c0f0.stex" ]
 
 [params]
 

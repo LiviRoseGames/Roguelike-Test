@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_knife.png-44d4911429d8b86f94ba26367f150270.stex"
+path="res://.import/weapon_knife.png-f8ab98a08e38c6d182cf82ad587b8d29.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/weapon_knife.png"
-dest_files=[ "res://.import/weapon_knife.png-44d4911429d8b86f94ba26367f150270.stex" ]
+source_file="res://Roguelike Test/art/frames/weapon_knife.png"
+dest_files=[ "res://.import/weapon_knife.png-f8ab98a08e38c6d182cf82ad587b8d29.stex" ]
 
 [params]
 
