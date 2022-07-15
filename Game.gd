@@ -92,6 +92,7 @@ func build_level():
 	
 	#Place player
 	
+	$PlayerManager.spawn_player()
 	var start_room = rooms.front()
 	var player_x = start_room.position.x + 1 + randi() % int(start_room.size.x - 2)
 	var player_y = start_room.position.y + 1 + randi() % int(start_room.size.y - 2)

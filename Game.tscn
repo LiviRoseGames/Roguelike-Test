@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Game.gd" type="Script" id=1]
 [ext_resource path="res://Player/PlayerManager.gd" type="Script" id=2]
@@ -8,7 +8,6 @@
 [ext_resource path="res://art/frames/doors_all.png" type="Texture" id=6]
 [ext_resource path="res://art/frames/hole.png" type="Texture" id=7]
 [ext_resource path="res://art/black.png" type="Texture" id=8]
-[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=9]
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -154,8 +153,6 @@ format = 1
 
 [node name="PlayerManager" type="Node2D" parent="."]
 script = ExtResource( 2 )
-
-[node name="Player" parent="PlayerManager" instance=ExtResource( 9 )]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
