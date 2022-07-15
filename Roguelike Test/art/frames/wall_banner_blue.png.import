@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wall_banner_blue.png-241c79665c75b25c390ff5a1afdf4883.stex"
+path="res://.import/wall_banner_blue.png-32f9f56d1287ca0a3ba4e9d9b89d30fc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/wall_banner_blue.png"
-dest_files=[ "res://.import/wall_banner_blue.png-241c79665c75b25c390ff5a1afdf4883.stex" ]
+source_file="res://Roguelike Test/art/frames/wall_banner_blue.png"
+dest_files=[ "res://.import/wall_banner_blue.png-32f9f56d1287ca0a3ba4e9d9b89d30fc.stex" ]
 
 [params]
 

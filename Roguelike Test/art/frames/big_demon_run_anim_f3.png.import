@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/big_demon_run_anim_f3.png-86fb6f279236ee9d8d6ccfeff52db589.stex"
+path="res://.import/big_demon_run_anim_f3.png-2fa0e049d509f92143936add39543eee.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/big_demon_run_anim_f3.png"
-dest_files=[ "res://.import/big_demon_run_anim_f3.png-86fb6f279236ee9d8d6ccfeff52db589.stex" ]
+source_file="res://Roguelike Test/art/frames/big_demon_run_anim_f3.png"
+dest_files=[ "res://.import/big_demon_run_anim_f3.png-2fa0e049d509f92143936add39543eee.stex" ]
 
 [params]
 

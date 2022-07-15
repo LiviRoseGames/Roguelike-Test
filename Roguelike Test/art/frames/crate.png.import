@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/crate.png-009972e9312e2b43620c9d41bec92481.stex"
+path="res://.import/crate.png-f0780b18ac2193faa6b0bd42ac61ead5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/crate.png"
-dest_files=[ "res://.import/crate.png-009972e9312e2b43620c9d41bec92481.stex" ]
+source_file="res://Roguelike Test/art/frames/crate.png"
+dest_files=[ "res://.import/crate.png-f0780b18ac2193faa6b0bd42ac61ead5.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/elf_m_idle_anim_f1.png-b0730c0ebc0ddabe8a58a785c9e30f3f.stex"
+path="res://.import/elf_m_idle_anim_f1.png-116d653e9df8058142f399a0bee090de.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/elf_m_idle_anim_f1.png"
-dest_files=[ "res://.import/elf_m_idle_anim_f1.png-b0730c0ebc0ddabe8a58a785c9e30f3f.stex" ]
+source_file="res://Roguelike Test/art/frames/elf_m_idle_anim_f1.png"
+dest_files=[ "res://.import/elf_m_idle_anim_f1.png-116d653e9df8058142f399a0bee090de.stex" ]
 
 [params]
 

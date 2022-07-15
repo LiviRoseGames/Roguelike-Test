@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/coin_anim_f1.png-2742cb2e3803be56e8fc115e90b1d17b.stex"
+path="res://.import/coin_anim_f1.png-eb1eaf9c74475567107bbd9ccb1657e1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/coin_anim_f1.png"
-dest_files=[ "res://.import/coin_anim_f1.png-2742cb2e3803be56e8fc115e90b1d17b.stex" ]
+source_file="res://Roguelike Test/art/frames/coin_anim_f1.png"
+dest_files=[ "res://.import/coin_anim_f1.png-eb1eaf9c74475567107bbd9ccb1657e1.stex" ]
 
 [params]
 

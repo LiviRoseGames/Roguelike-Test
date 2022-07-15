@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/necromancer_idle_anim_f2.png-0284907eb453c28701f684fbe37215fd.stex"
+path="res://.import/necromancer_idle_anim_f2.png-c2d2d3ece65f8c77f37ed35fc9fb222f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/necromancer_idle_anim_f2.png"
-dest_files=[ "res://.import/necromancer_idle_anim_f2.png-0284907eb453c28701f684fbe37215fd.stex" ]
+source_file="res://Roguelike Test/art/frames/necromancer_idle_anim_f2.png"
+dest_files=[ "res://.import/necromancer_idle_anim_f2.png-c2d2d3ece65f8c77f37ed35fc9fb222f.stex" ]
 
 [params]
 

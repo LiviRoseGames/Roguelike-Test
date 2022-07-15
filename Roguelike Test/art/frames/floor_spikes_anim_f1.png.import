@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/floor_spikes_anim_f1.png-66192972975d6fbf8d7f92097772df10.stex"
+path="res://.import/floor_spikes_anim_f1.png-15a55f4d32b9adc1aa828ef8f20159a5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/floor_spikes_anim_f1.png"
-dest_files=[ "res://.import/floor_spikes_anim_f1.png-66192972975d6fbf8d7f92097772df10.stex" ]
+source_file="res://Roguelike Test/art/frames/floor_spikes_anim_f1.png"
+dest_files=[ "res://.import/floor_spikes_anim_f1.png-15a55f4d32b9adc1aa828ef8f20159a5.stex" ]
 
 [params]
 

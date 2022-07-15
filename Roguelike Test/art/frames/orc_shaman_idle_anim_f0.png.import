@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/orc_shaman_idle_anim_f0.png-6819bf1f8653c4a35e381c4dd777ec12.stex"
+path="res://.import/orc_shaman_idle_anim_f0.png-abf7fa57afa6781779fdf65203de9f7a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/orc_shaman_idle_anim_f0.png"
-dest_files=[ "res://.import/orc_shaman_idle_anim_f0.png-6819bf1f8653c4a35e381c4dd777ec12.stex" ]
+source_file="res://Roguelike Test/art/frames/orc_shaman_idle_anim_f0.png"
+dest_files=[ "res://.import/orc_shaman_idle_anim_f0.png-abf7fa57afa6781779fdf65203de9f7a.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/placeholder.png-fdd683ee36ca80dff9ce9c6b1ddb20ee.stex"
+path="res://.import/placeholder.png-2d06d21a742583f749586777945d2b0e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/github-integration/resources/user/placeholder.png"
-dest_files=[ "res://.import/placeholder.png-fdd683ee36ca80dff9ce9c6b1ddb20ee.stex" ]
+source_file="res://Roguelike Test/addons/github-integration/resources/user/placeholder.png"
+dest_files=[ "res://.import/placeholder.png-2d06d21a742583f749586777945d2b0e.stex" ]
 
 [params]
 

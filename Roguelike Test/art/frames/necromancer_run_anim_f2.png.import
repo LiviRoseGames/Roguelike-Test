@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/necromancer_run_anim_f2.png-8d5d31d52315b6111bbb0c2ac38f1355.stex"
+path="res://.import/necromancer_run_anim_f2.png-52491e660790520de35e65843c8e4d2a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/necromancer_run_anim_f2.png"
-dest_files=[ "res://.import/necromancer_run_anim_f2.png-8d5d31d52315b6111bbb0c2ac38f1355.stex" ]
+source_file="res://Roguelike Test/art/frames/necromancer_run_anim_f2.png"
+dest_files=[ "res://.import/necromancer_run_anim_f2.png-52491e660790520de35e65843c8e4d2a.stex" ]
 
 [params]
 

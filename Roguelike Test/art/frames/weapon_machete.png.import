@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weapon_machete.png-ab71a082e0c6aa4b514e17279d571740.stex"
+path="res://.import/weapon_machete.png-1dd03899d0f6d1acb4bb4ac1008f686d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/frames/weapon_machete.png"
-dest_files=[ "res://.import/weapon_machete.png-ab71a082e0c6aa4b514e17279d571740.stex" ]
+source_file="res://Roguelike Test/art/frames/weapon_machete.png"
+dest_files=[ "res://.import/weapon_machete.png-1dd03899d0f6d1acb4bb4ac1008f686d.stex" ]
 
 [params]
 
